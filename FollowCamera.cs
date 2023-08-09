@@ -36,7 +36,6 @@ namespace RPG.Core
 
         [Tooltip("Speed the camera moves with keyboard input")]
         [SerializeField] float keyboardCameraSpeed = 10f;
-
         #endregion
 
         #region Edge Panning
@@ -45,7 +44,6 @@ namespace RPG.Core
         [SerializeField] float edgePanningSens = 10f;
 
         float edgePanAcceleration = 1f;
-        //float edgePanDeceleration = 0.05f;
         #endregion
 
         // Start is called before the first frame update
